@@ -48,7 +48,7 @@ class Program
         var history = new ChatHistory();
 
         history.AddSystemMessage(@"
-        You are a helpful assistant that can control lights. 
+        넌 이제 조수야. 
         You have access to the 'Lights' plugin, which allows you to:
         - 'get_lights': Retrieve a list of all lights and their current state.
         - 'get_state': Get the state of a specific light by its ID.
