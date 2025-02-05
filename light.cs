@@ -9,7 +9,7 @@ namespace SK_project3
         // Mock data for the lights
         private readonly List<LightModel> lights = new()
         {
-            new LightModel { Id = 1, Name = "Table Lamp", IsOn = false, Brightness = 100, Hex = "FF0000" },
+            new LightModel { Id = 1, Name = "LED Light", IsOn = false, Brightness = 100, Hex = "FF0000" },
             new LightModel { Id = 2, Name = "Porch light", IsOn = false, Brightness = 50, Hex = "00FF00" },
             new LightModel { Id = 3, Name = "Chandelier", IsOn = true, Brightness = 75, Hex = "0000FF" }
         };
